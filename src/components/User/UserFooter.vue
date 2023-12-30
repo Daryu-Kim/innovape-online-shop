@@ -16,7 +16,7 @@ function setDateFormat(date: Date) {
 </script>
 
 <template>
-  <footer class="wrapper">
+  <footer class="user-footer">
     <div class="inner">
       <div class="left">
         <button :class="{active: isClickedStartBtn}" @click="isClickedStartBtn = !isClickedStartBtn">
@@ -34,7 +34,7 @@ function setDateFormat(date: Date) {
 </template>
 
 <style scoped>
-footer.wrapper {
+.user-footer {
   width: 100%;
   position: fixed;
   bottom: 0;
